@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 94%);
+}
+
+.container {
+    width: 52.5em;
+    height: 41em;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 25px;
+    border-bottom-right-radius: 28%;
+    padding: 2.5rem 3.4rem;
+    transition: all 1s ease-in-out;
+}
+
+/* header {
+    display: flex;
+} */
+
+.inputs {
+    display: flex;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.inputs div {
+    margin-right: 1rem;
+    height: 6.2rem;
+    width: 11rem;
+}
+
+h4 {
+    margin-bottom: .5rem;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 10rem;
+    height: 4.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #acacac;
+    padding-left: 1.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+input:focus {
+    border: 1px solid hsl(259, 100%, 65%);
+}
+
+.error {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 6px;
+    color: hsl(0, 100%, 67%);
+}
+
+.arrow {
+    margin: 3rem 0 2rem 0;
+    position: relative;
+}
+
+hr {
+    width: 89%;
+}
+
+.calculate {
+    height: 6rem;
+    width: 6rem;
+    border: none;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: -2.9rem;
+    transition: all .5s ease-in-out;
+}
+
+.calculate:hover {
+    background: #000;
+}
+
+main{
+    padding-left: 0rem;
+}
+
+main .date {
+    font-size: 6.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: -2.8rem;
+}
+
+main .date span {
+    color: blueviolet;
+    font-style: italic;
+}
+
+@media screen and (width<=55rem) {
+    body {
+        height: auto;
+    }
+    .container {
+        width: 90%;
+        padding: 2.8rem 1.4rem;
+        height: auto;
+        max-height: 50;
+        margin-top: 5rem;
+    }
+    .inputs div {
+        margin-right: 1rem;
+    }
+    input {
+        width: 5rem;
+        height: 3.5rem;
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+    }
+    .calculate {
+        position: absolute;
+        right: 40%;
+        bottom: -2.2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .error{
+        font-size: 13px;
+    }
+    main .date {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: -1rem;
+    }
+    .arrow {
+        margin: 4rem 0;
+    }
+}
