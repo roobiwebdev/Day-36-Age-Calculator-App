@@ -65,17 +65,21 @@ animateValue = (obj, start, end, duration) => {
 
 -Completed 35 out of 100 Challenges so far—keeping up the momentum!🔥
 
-###Screenshot
-
-
-![desktop-design](https://github.com/user-attachments/assets/54b4909d-5ab1-4c26-8029-86d6cb201307)
-
 
 
 ##Live Demo
 
 [Live Link](https://roobiwebdev.github.io/Day-36-Age-Calculator-App/)
 
+
+
+
+
+
+###Screenshot
+
+
+![desktop-design](https://github.com/user-attachments/assets/54b4909d-5ab1-4c26-8029-86d6cb201307)
 
 
 
