@@ -1,7 +1,5 @@
 Day 36 of #100DaysChallenge
 
-Good morning, folks! ☀️ Today’s project is an amazing one.
-
 Project Name: Age Calculator App
 
 This app allows users to input their birth date and instantly calculates their age in years, months, and days. It’s clean, simple, and effective. Additionally, it features error states to handle invalid inputs gracefully and animations when displaying age calculations.
