@@ -11,6 +11,8 @@ Technologies Used
 
 #JavaScript
 
+
+
 HTML Structure The HTML file sets up the basic structure with inputs for day, month, and year. Semantic elements like <div>, <input>, and <button> are used for form handling.
 
 CSS Styling
